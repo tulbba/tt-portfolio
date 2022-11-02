@@ -1,13 +1,13 @@
 
 const images = [
-    { src: '/images/gitlogo.png' },
-    { src: '/images/nextlogo.png' },
-    { src: '/images/phplogo.png' },
-    { src: '/images/reactlogo.png' },
-    { src: '/images/tailwindlogo.png' },
-    { src: '/images/wplogo.png' },
-    { src: '/images/sasslogo.png' },
-    { src: '/images/jslogo.png' },
+    { id: '1', src: '/images/gitlogo.png' },
+    { id: '2', src: '/images/nextlogo.png' },
+    { id: '3', src: '/images/phplogo.png' },
+    { id: '4', src: '/images/reactlogo.png' },
+    { id: '5', src: '/images/tailwindlogo.png' },
+    { id: '6', src: '/images/wplogo.png' },
+    { id: '7', src: '/images/sasslogo.png' },
+    { id: '8', src: '/images/jslogo.png' },
 ]
 
 export default function Tech() {
@@ -21,6 +21,7 @@ export default function Tech() {
               <section className='grid grid-cols-mobile sm:grid-cols-smdesktop md:grid-cols-lgdesktop md:gap-4 2xl:flex 2xl:gap-10 place-items-center place-content-center'>
                 {images.map((index) => 
                     <img 
+                        key={index.id}
                         src={index.src}
                         className="bw-overlay w-16 sm:w-20 object-contain" 
                     /> 

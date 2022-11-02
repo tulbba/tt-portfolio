@@ -50,7 +50,7 @@ export default function Home({ projects }) {
           </div>
              <div className='flex flex-col gap-5 w-full'>
                {projects?.map((project) => (
-                <div className='w-full md:w-3/6 flex flex-col md:flex-row gap-2 mb-5 md:gap-5'>
+                <div key={project.id} className='w-full md:w-3/6 flex flex-col md:flex-row gap-2 mb-5 md:gap-5'>
                     <img className='bw-overlay' src={project.projectScreenshot.url} />
                     <div className='text-white font-body'>
                       <p className='w-60 font-bold text-lg tracking-wide'>{project.title}</p>
