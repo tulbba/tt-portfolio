@@ -3,8 +3,10 @@ import { AnimatePresence } from 'framer-motion'
 import Head from 'next/head'
 import Header from '../components/Header'
 
-function MyApp({ Component, pageProps, router}) {
-  return (
+export default function MyApp({ Component, pageProps, router }) {
+  const getLayout = Component.getLayout || ((Home) => Home)
+
+  return getLayout (
         <AnimatePresence>
           <Head>
             <title>Tuuli Torkkeli Portfolio</title>
@@ -14,4 +16,3 @@ function MyApp({ Component, pageProps, router}) {
     )
   }
 
-export default MyApp

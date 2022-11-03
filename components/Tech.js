@@ -1,3 +1,6 @@
+import { useInView } from 'react-intersection-observer'
+import { motion, useAnimation } from 'framer-motion'
+import { useEffect } from 'react'
 
 const images = [
     { id: '1', src: '/images/gitlogo.png' },
@@ -11,8 +14,36 @@ const images = [
 ]
 
 export default function Tech() {
+    // ref we hook in to an element we want to monitor
+  // inView checks if that element is in view
+  const { ref, inView } = useInView({
+    triggerOnce: true
+  });
+  const animation = useAnimation();
+
+  useEffect(() => {
+    // if inView is in view, start the animation
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        y: 0,
+        transition: { duration: .9 }
+      })
+    }
+    if (!inView) {
+        animation.start({
+          opacity: 0,
+          y: 100
+        })
+    }
+  }, [inView]);
+
     return (
-        <div className='container h-[70vh] md:h-[50vh] md:mt-20 w-full flex flex-col justify-center gap-12 mb-32 p-5'>        
+        <motion.div
+           className='container h-[70vh] md:h-[50vh] md:mt-20 w-full flex flex-col justify-center gap-12 mb-32 p-5'
+           ref={ref}
+           animate={animation}
+        >        
               <section className="flex justify-center">
                 <h2 className="text-white font-header text-3xl sm:text-4xl md:text-5xl leading-10">
                   Tech I like to use
@@ -27,6 +58,6 @@ export default function Tech() {
                     /> 
                 )}
               </section>
-        </div>
+        </motion.div>
     )
 }

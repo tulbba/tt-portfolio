@@ -59,10 +59,9 @@ export async function getStaticProps({ params }) {
 export default function Post({ project }) {
     return (
       <motion.main 
-        initial={{ opacity: 0 }}    
+        initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: .65, ease:'easeOut' }}
+        transition={{ duration: 1, ease:'easeOut' }}
         className='p-5 container'
         >
           <Head>
@@ -82,9 +81,6 @@ export default function Post({ project }) {
               <Link href={project.websiteUrl} target="blank">
                 <img src={project.projectScreenshot.url} />
               </Link>
-            </section>
-
-            <section>
               <p className='border-t-[1px] mt-5 font-body text-white text-1xl sm:text-lg py-4'>
                   {project.workDone}
                 </p>
@@ -100,6 +96,7 @@ export default function Post({ project }) {
                   <p className='border-b-[1px] font-body text-white text-1xl sm:text-lg py-4'>Go to the website</p>
               </Link>
             </section>
+
           </div>
         </motion.main>
     )
