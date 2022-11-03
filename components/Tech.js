@@ -40,7 +40,7 @@ export default function Tech() {
 
     return (
         <motion.div
-           className='container h-[70vh] md:h-[50vh] md:mt-20 w-full flex flex-col justify-center gap-12 mb-32 p-5'
+           className='container h-[70vh] md:h-[50vh] md:mt-20 w-full flex flex-col justify-center gap-12 p-5 md:mb-24'
            ref={ref}
            animate={animation}
         >        
