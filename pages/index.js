@@ -50,7 +50,7 @@ export default function Home({ projects }) {
              <div className='flex flex-col gap-5 w-full'>
                 {projects?.map((project) => (
                   <div key={project.id} className='w-full md:w-3/6 flex flex-col md:flex-row gap-2 mb-5 md:gap-5'>
-                      <Link href={project.slug} scroll={false}>
+                      <Link href={project.slug}>
                       <img className='bw-overlay' src={project.projectScreenshot.url} />
                       </Link>
                       <div className='text-white font-body'>
