@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Tech from '../components/Tech'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import NestedLayout from '../components/NestedLayout'
 
 import { motion, useAnimation } from 'framer-motion'
