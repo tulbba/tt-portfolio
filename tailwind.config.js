@@ -15,7 +15,8 @@ module.exports = {
     },
     colors: {
       'white': '#edeced',
-      'black': '#131313'
+      'black': '#131313',
+      'orange': 'rgb(253 186 116)'
     },
     gridTemplateColumns: {
       'mobile': 'repeat(2, 100px)',
