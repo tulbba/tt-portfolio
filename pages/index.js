@@ -40,13 +40,7 @@ export async function getStaticProps() {
 
 export default function Home({ projects }) {
   return (
-    <motion.main 
-        className='mx-auto'
-        initial={{ y: '7%', opacity: 0 }}    
-        animate={{ y: '0%', opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: .7, ease:'easeOut' }}
-        >
+    <main className='mx-auto'>
       <Header />
       <Hero />
       <div className='container w-full h-full flex flex-col md:flex-row-reverse justify-between mt-28 md:mt-40 p-5 sm:mt-10'>
@@ -70,7 +64,7 @@ export default function Home({ projects }) {
             <About />   
             <Tech />
             <Contact />
-    </motion.main>
+    </main>
   )
 }
 
