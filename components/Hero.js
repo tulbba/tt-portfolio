@@ -11,9 +11,11 @@ export default function Hero() {
                    finished with school and now looking for new opportunities to show and improve my skills as a 
                    web designer and a front-end developer.
                 </h2>
-                <button className='border border-white mt-5 md:mt-10 p-3 rounded-full w-2/6 sm:w-1/3 xl:w-1/4 hover:bg-white'>
-                    <a href="mailto:tuuli.torkkeli@gmail.com" className='text-white font-bold text-[1.3rem] sm:text-2xl hover:text-black'>Let's talk</a>
-                </button>
+                <div className='mt-10'>
+                    <span className='border border-white mt-5 md:mt-10 p-4 rounded-full w-2/6 sm:w-1/3 xl:w-1/4 hover:bg-white text-white font-bold text-[1.3rem] sm:text-2xl hover:text-black'>
+                        <a href="mailto:tuuli.torkkeli@gmail.com">Let's talk</a>
+                    </span>
+                </div>
             </section>
             <section className='w-full h-[35vh] sm:h-[50vh md:h-full flex flex-col items-center md:items-end md:justify-end'>
                 <div className='w-4/6 sm:w-1/3 h-full sm:h-3/4 md:h-1/2 md:w-full xl:w-1/2 relative'>
