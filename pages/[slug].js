@@ -80,7 +80,7 @@ export default function Post({ project }) {
             <section className='mt-14'>
               <h1 className='font-header break-words text-white mb-3 text-4xl sm:text-5xl md:text-6xl'>{project.title}</h1>
               <Link href={project.websiteUrl} target="blank">
-                <img src={project.projectScreenshot.url} />
+                <img className='w-full' src={project.projectScreenshot.url} />
               </Link>
               <p className='border-t-[1px] mt-5 font-body text-white text-1xl sm:text-lg py-4'>
                   {project.workDone}

@@ -88,7 +88,7 @@ export default function Home({ projects }) {
                 {projects?.map((project) => (
                   <div key={project.id} className='w-full h-1/2 md:w-full lg:w-5/6 2xl:w-2/3 flex flex-col md:flex-row gap-2 md:gap-5'>
                       <Link href={project.slug}>
-                        <img className='bw-overlay h-52 sm:h-64 md:h-56 xl:h-80 2xl:h-96 w-screen object-cover' src={project.projectScreenshot.url} />
+                        <img className='rounded-t-3xl bw-overlay h-52 sm:h-64 md:h-56 xl:h-80 2xl:h-96 w-screen object-cover' src={project.projectScreenshot.url} />
                       </Link>
                       <div className='text-white font-body'>
                         <p className='w-60 font-bold text-lg tracking-wide'>{project.title}</p>

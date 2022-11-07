@@ -36,19 +36,15 @@ export default function About() {
 
               <section className="w-full md:w-1/2 flex items-center">
                 <h2 className="text-white font-body text-base lg:text-[1.2rem] md:leading-7">
-                  My career in the tech has only began about two years ago, after thinking and
-                  trying to figure that what an earth should I do with my life. I have a long working
-                  experince in customer service, which is still something I do enjoy doing, but it just 
-                  wasn't giving me the fulfillement I was looking for in a career. After I tried some 
-                  coding courses that my sister recommended to me, I was blown. You can do SO much with 
-                  just a couple lines of code, holy crap! I really started to look into coding and tried
-                  to discover now that what I would be interested in. 
-                  <br /><br/>
                   I did a 2 month internship at a Finnish start-up Jemma, where I was introduced to React
                   for the first time. We used React Native solely for creating an mobile app, where people
-                  can sell, buy and loan stuff. Year later I did a 5 month internship at a online marketing
+                  can sell, buy and loan stuff. Year later I did a 5 month internship at an online marketing
                   company, Rock the Web, in the Netherlands. There I was able to better my skills with design
                   and to develop websites independently with WordPress.
+                  <br /><br />
+                  If I'm not making websites, I'm probably playing guitar or spending time with my dog, Murphy.
+                  Playing video games is also my passion. Games that I've really enjoyed recently are Red Dead Redemption 2,
+                  Detroit: Become Human and Horizon Zero Dawn, but my all-time favorite is the Spyro series.
                 </h2>
               </section>
 
