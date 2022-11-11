@@ -36,7 +36,7 @@ export default function About() {
 
               <section className="w-full md:w-1/2 flex items-center">
                 <h2 className="text-white font-body text-base lg:text-[1.2rem] md:leading-7">
-                  I orignally started in the hospitality industry, but since decided to change my
+                  I originally started in the hospitality industry, but since decided to change my
                   career to a new direction. I've been coding now for about two years and I've turned
                   my interest specifically to the front-end. I enjoy designing websites and figuring out
                   new ways of developing them.
