@@ -48,6 +48,7 @@ export default function Home({ projects }) {
   const { ref, inView } = useInView({
     triggerOnce: true
   });
+  
   const animation = useAnimation();
 
   useEffect(() => {
@@ -90,7 +91,7 @@ export default function Home({ projects }) {
                       <Link href={project.slug}>
                         <img className='rounded-t-3xl bw-overlay h-52 sm:h-64 md:h-56 xl:h-80 2xl:h-96 w-screen object-cover' src={project.projectScreenshot.url} />
                       </Link>
-                      <div className='text-white font-body'>
+                      <div className='text-white font-body md:mt-5'>
                         <p className='w-60 font-bold text-lg tracking-wide'>{project.title}</p>
                         <p className='text-sm w-56 tracking-wide'>{project.workDone}</p>
                       </div>
