@@ -5,11 +5,11 @@ import { useEffect } from 'react'
 const images = [
     { id: '1', src: '/images/gitlogo.png' },
     { id: '2', src: '/images/nextlogo.png' },
-    { id: '4', src: '/images/reactlogo.png' },
-    { id: '5', src: '/images/tailwindlogo.png' },
-    { id: '6', src: '/images/wplogo.png' },
-    { id: '7', src: '/images/sasslogo.png' },
-    { id: '8', src: '/images/jslogo.png' },
+    { id: '3', src: '/images/reactlogo.png' },
+    { id: '4', src: '/images/tailwindlogo.png' },
+    { id: '5', src: '/images/wplogo.png' },
+    { id: '6', src: '/images/sasslogo.png' },
+    { id: '7', src: '/images/jslogo.png' },
     { id: '8', src: '/images/angularlogo.png' },
 ]
 

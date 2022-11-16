@@ -22,6 +22,7 @@ module.exports = {
       'mobile': 'repeat(2, 100px)',
       'smdesktop': 'repeat(3, 150px)',
       'lgdesktop': 'repeat(4, 175px)',
+      'jemma-desktop': 'repeat(2, auto)'
     }
   },
   plugins: [],

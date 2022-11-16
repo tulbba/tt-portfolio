@@ -36,16 +36,12 @@ export default function About() {
 
               <section className="w-full md:w-1/2 flex items-center">
                 <h2 className="text-white font-body text-base lg:text-[1.2rem] md:leading-7">
-                  I originally started in the hospitality industry, but since decided to change my
-                  career to a new direction. I've been coding now for about two years and I've turned
-                  my interest specifically to the front-end. I enjoy designing websites and figuring out
-                  new ways of developing them.
-                  <br /><br />
-                  I did a 2 month internship at a Finnish start-up Jemma, where I was introduced to React
-                  for the first time. We used React Native solely for creating an mobile app, where people
-                  can sell, buy and loan stuff. Year later I did a 5 month internship at an online marketing
-                  company, Rock the Web, in the Netherlands. There I was able to better my skills with design
-                  and to develop websites independently with WordPress.
+                  I originally started in the hospitality industry back in 2012, but later decided to do a complete 
+                  one-eighty with my career. While working as an developer intern, I really enjoyed communication
+                  with customers when I got the chance. I realised that I wanted to do that more, so now I'm concentrating
+                  finding a job where I could develop myself not only technically. Also, I am creating my own website
+                  designs using Figma and I love using especially React and Tailwind to experiment with different kinds
+                  of ways for developing a great user experience.
                   <br /><br />
                   If I'm not making websites, I'm probably playing guitar or spending time with my dog, Murphy.
                   Playing video games is also my passion. Games that I've really enjoyed recently are Red Dead Redemption 2,
