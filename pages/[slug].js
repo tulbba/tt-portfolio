@@ -2,7 +2,6 @@ import { GraphQLClient, gql } from 'graphql-request'
 import Link from 'next/link';
 import { motion } from 'framer-motion'
 import Head from 'next/head'
-import { useState } from 'react';
 
 const images = [
   { id: '2', src: '/images/jemma2.jpg' },
@@ -106,7 +105,7 @@ export default function Post({ project }) {
                 <Link href={project.websiteUrl}
                       target="blank"
                     >
-                  <p className='border-b-[1px] font-body text-white text-1xl sm:text-lg py-4'>Go to the website</p>
+                  <p className='border-b-[1px] font-body text-white text-1xl sm:text-lg py-4'>Open the link</p>
               </Link>
             </section>
             {(() => {
