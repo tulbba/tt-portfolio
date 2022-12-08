@@ -14,7 +14,7 @@ const images = [
 ]
 
 export default function Tech() {
-    // ref we hook in to an element we want to monitor
+  // ref we hook in to an element we want to monitor
   // inView checks if that element is in view
   const { ref, inView } = useInView({
     triggerOnce: true

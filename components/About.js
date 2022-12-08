@@ -40,7 +40,7 @@ export default function About() {
                   one-eighty with my career. While working as an developer intern, I really enjoyed communication
                   with customers when I got the chance. I realised that I wanted to do that more, so now I'm concentrating
                   finding a job where I could develop myself not only technically. Also, I am creating my own website
-                  designs using Figma and I love using especially React and Tailwind to experiment with different kinds
+                  designs using Figma and I love using especially React and WordPress to experiment with different kinds
                   of ways for developing a great user experience.
                   <br /><br />
                   If I'm not making websites, I'm probably playing guitar or spending time with my dog, Murphy.
