@@ -37,11 +37,10 @@ export default function About() {
               <section className="w-full md:w-1/2 flex items-center">
                 <h2 className="text-white font-body text-base lg:text-[1.2rem] md:leading-7">
                   I originally started in the hospitality industry back in 2012, but later decided to do a complete 
-                  one-eighty with my career. While working as an developer intern, I really enjoyed communication
-                  with customers when I got the chance. I realised that I wanted to do that more, so now I'm concentrating
-                  finding a job where I could develop myself not only technically. Also, I am creating my own website
-                  designs using Figma and I love using especially React and WordPress to experiment with different kinds
-                  of ways for developing a great user experience.
+                  one-eighty with my career. I enjoy the excitement and endless possibilities of web development and how learned
+                  technigues can be utilized with different projects. I concentrate on making websites visually attractive, responsive and browser
+                  compatible. I am also interested in digital marketing and love to learn more about it.
+                  I especially enjoy using Figma for the design, WordPress or React for developing and Vercel for deployment (React.js/Next.js projects mostly). 
                   <br /><br />
                   If I'm not making websites, I'm probably playing guitar or spending time with my dog, Murphy.
                   Playing video games is also my passion. Games that I've really enjoyed recently are Red Dead Redemption 2,
