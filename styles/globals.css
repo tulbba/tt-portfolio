@@ -2,35 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'Chromate-Regular';
-  src: url('/fonts/Chromate-Regular.ttf') format('truetype');
-        font-weight: 500;
-        font-display: swap;
-        font-style: normal;
+  font-family: "Chromate-Regular";
+  src: url("/fonts/Chromate-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'CabinetGrotesk-Regular';
-  src: url('/fonts/CabinetGrotesk-Regular.ttf') format('truetype');
-        font-weight: 500;
-        font-display: swap;
-        font-style: normal;
+  font-family: "CabinetGrotesk-Regular";
+  src: url("/fonts/CabinetGrotesk-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'CabinetGrotesk-Bold';
-  src: url('/fonts/CabinetGrotesk-Bold.ttf') format('truetype');
-        font-weight: 700;
-        font-display: swap;
-        font-style: normal;
+  font-family: "CabinetGrotesk-Bold";
+  src: url("/fonts/CabinetGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
-  
-html, body {
-    background-color: #131313;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+
+html,
+body {
+  background-color: #131313;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -38,17 +38,17 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #131313; 
+  background: #131313;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #131313; 
+  background: #edeced;
 }
 
 .bw-overlay {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .bw-overlay:hover {
