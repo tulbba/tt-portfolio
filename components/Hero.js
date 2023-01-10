@@ -22,7 +22,7 @@ export default function Hero() {
           </a>
         </div>
       </section>
-      <section className="h-[60vh] min-[425px]:h-[60vh] min-[525px]:h-[65vh] w-full md:h-full flex flex-col items-center md:items-end md:justify-end">
+      <section className="h-[45vh] min-[425px]:h-[60vh] min-[525px]:h-[65vh] w-full md:h-full flex flex-col items-center md:items-end md:justify-end">
         <div className="w-4/6 sm:w-1/3 h-full sm:h-3/4 md:h-1/2 md:w-full xl:w-1/2 relative">
           <Image
             className="object-cover rounded-t-full"
